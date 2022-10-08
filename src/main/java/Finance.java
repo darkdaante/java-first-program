@@ -13,7 +13,7 @@ public class Finance {
 
     public static void main (String[] args){
 
-        if(commandsToUsage.containsKey((args[0]))){
+        if(!commandsToUsage.containsKey((args[0]))){
             System.out.println(args[0] + ": command not found"); return;
         }
 
