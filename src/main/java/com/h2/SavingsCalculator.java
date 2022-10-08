@@ -36,7 +36,7 @@ public class SavingsCalculator {
 
     private float sumOfDebits(){
         float sum=0.0f;
-        for(float debit : debits) sum+=credit;
+        for(float credit : debits) sum+=credit;
         return sum;
     }
 
